@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #170680;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.govoo.DeleteController">
+    <children>
+        <AnchorPane layoutY="85.0" prefHeight="315.0" prefWidth="707.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <PasswordField fx:id="delete_password_field" layoutX="196.0" layoutY="147.0" prefHeight="38.0" prefWidth="332.0" promptText="Пароль">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+                <TextField fx:id="delete_login_field" layoutX="196.0" layoutY="86.0" prefHeight="37.0" prefWidth="332.0" promptText="Логін">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </TextField>
+                <Label layoutX="167.0" prefHeight="67.0" prefWidth="391.0" text="Видалення аккаунта" textFill="#8d8686">
+                    <font>
+                        <Font name="Segoe UI" size="42.0" />
+                    </font>
+                </Label>
+                <Button fx:id="delete_page_button" layoutX="284.0" layoutY="229.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="147.0" style="-fx-background-color: #F39C63;" text="Видалити">
+                    <font>
+                        <Font name="Garamond Bold" size="26.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="291.0" layoutY="5.0" text="Hotel" textFill="#fcfcfc">
+            <font>
+                <Font name="Harrington" size="56.0" />
+            </font>
+        </Label>
+        <Button fx:id="delete_page_back_button" layoutX="564.0" layoutY="24.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #F39C63;" text="Назад">
+            <font>
+                <Font name="Garamond Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

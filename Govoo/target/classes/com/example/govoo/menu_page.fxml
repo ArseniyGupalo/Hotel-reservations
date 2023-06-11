@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #170680;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.govoo.MenuController">
+    <children>
+        <AnchorPane layoutY="85.0" prefHeight="315.0" prefWidth="707.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="menu_page_loginSignUpButton" layoutX="278.0" layoutY="59.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #F39C63;" text="Зареєструватись">
+               <font>
+                  <Font name="Garamond Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu_page_delete_button" layoutX="278.0" layoutY="119.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #F39C63;" text="Видалення">
+               <font>
+                  <Font name="Garamond Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu_page_update_button" layoutX="278.0" layoutY="177.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #F39C63;" text="Оновлення">
+               <font>
+                  <Font name="Garamond Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="291.0" layoutY="5.0" text="Hotel" textFill="#fcfcfc">
+            <font>
+                <Font name="Harrington" size="56.0" />
+            </font>
+        </Label>
+        <Button fx:id="menu_page_back_button" layoutX="562.0" layoutY="25.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #F39C63;" text="Назад">
+            <font>
+                <Font name="Garamond Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

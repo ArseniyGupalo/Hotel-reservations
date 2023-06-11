@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #170680;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.govoo.SignUpController">
+    <children>
+        <AnchorPane layoutY="85.0" prefHeight="315.0" prefWidth="707.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <PasswordField fx:id="signup_password" layoutX="387.0" layoutY="68.0" prefHeight="38.0" prefWidth="290.0" promptText="Пароль">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+                <TextField fx:id="signup_login" layoutX="387.0" layoutY="14.0" prefHeight="35.0" prefWidth="290.0" promptText="Логін">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </TextField>
+            <TextField fx:id="signup_pib" layoutX="25.0" layoutY="14.0" prefHeight="35.0" prefWidth="290.0" promptText="ПІБ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signup_phonenumber" layoutX="25.0" layoutY="71.0" prefHeight="35.0" prefWidth="290.0" promptText="Номер телефона">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Button fx:id="signup_reg_button" layoutX="275.0" layoutY="264.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="158.0" style="-fx-background-color: #F39C63;" text="Зареєструватись">
+               <font>
+                  <Font name="Garamond Bold" size="16.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="signup_checkbox_male" layoutX="251.0" layoutY="158.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Чоловік">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="signup_checkbox_female" layoutX="387.0" layoutY="158.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="75.0" text="Жінка">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="signup_country" layoutX="209.0" layoutY="205.0" prefHeight="35.0" prefWidth="290.0" promptText="Країна">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="291.0" layoutY="5.0" text="Hotel" textFill="#fcfcfc">
+            <font>
+                <Font name="Harrington" size="56.0" />
+            </font>
+        </Label>
+        <Button fx:id="signup_back_button" layoutX="564.0" layoutY="24.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #F39C63;" text="Назад">
+            <font>
+                <Font name="Garamond Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
